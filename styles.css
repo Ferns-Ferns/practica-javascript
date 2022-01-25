@@ -1,0 +1,308 @@
+:root{
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --black: #282623;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #fff
+    }
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 190px;
+    text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);;
+}
+.header-title-container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+}
+.header-title-container h1{
+    font-family: DM Sans;
+    font-style: normal;
+    color: white;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    padding-bottom: 2.4rem;
+}
+.header-title-container p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
+    text-align: center; 
+}
+.header-title-container .header-button-cuadrado{
+    position: absolute;
+    left: calc(20% - 50px);
+    top: 150px;
+    display: block;
+    margin-top: 18px;
+    padding: 15px;
+    width: 90px;
+    height: 48px;
+    background-color: var(--off-white);
+    /* Sombra */
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+.header-title-container .header-button-triangulo{
+    position: absolute;
+    left: calc(50% - 50px);
+    top: 150px;
+    display: block;
+    margin-top: 18px;
+    padding: 15px;
+    width: 90px;
+    height: 48px;
+    background-color: var(--off-white);
+    /* Sombra */
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+.header-title-container .header-button-circulo{
+    position: absolute;
+    left: calc(80% - 50px);
+    top: 150px;
+    display: block;
+    margin-top: 18px;
+    padding: 15px;
+    width: 90px;
+    height: 48px;
+    background-color: var(--off-white);
+    /* Sombra */
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+.cuadrado-container{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+.cuadrado--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.cuadrado--title h2{
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.cuadrado--title p{
+    padding-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.cuadrado-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    min-width: 320px;
+    padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.cuadrado-form label{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575; 
+}
+.cuadrado-form input{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.cuadrado-form button{
+    width: 40%;
+    background-color: var(--bitcoin-orange);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.triangulo-container{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: var(--soft-orange);
+}
+.triangulo--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.triangulo--title h2{
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.triangulo--title p{
+    padding-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.triangulo-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    min-width: 320px;
+    padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.triangulo-form label{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575; 
+}
+.triangulo-form input{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.triangulo-form button{
+    width: 40%;
+    background-color: var(--bitcoin-orange);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.circulo-container{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.circulo--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.circulo--title h2{
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.circulo--title p{
+    padding-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.circulo-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    min-width: 320px;
+    padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.circulo-form label{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575; 
+}
+.circulo-form input{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.circulo-form button{
+    width: 40%;
+    background-color: var(--bitcoin-orange);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
